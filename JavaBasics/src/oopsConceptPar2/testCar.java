@@ -16,7 +16,8 @@ public class testCar {
 		
 		//Top casting
 		Cars c1 = new BMW();//child class object can be referred by parent class reference variable, called dynamic
-		//polymorphism or run-time polymorphism
+		//polymorphism or run-time polymorphism. All the common methods or methods in the parent class(here Cars) can be called.
+		//none of the child class method are allowed to be called. In this case, theftSafety method can not be called.
 		c1.start();
 		c1.stop();
 		c1.refuel();
@@ -25,6 +26,7 @@ public class testCar {
 		
 		//Down casting is not allowed, possible by typecasting but throw ClassCastException 
 		BMW b1 = (BMW) new Cars();//ClassCastException:
+		b1.engine();
 		
 		
 
