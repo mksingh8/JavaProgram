@@ -19,6 +19,11 @@ public class CallByValueNcallByReferenceConcept {
 		//after swap
 		System.out.println(obj.p);
 		System.out.println(obj.q);
+		
+		
+		System.out.println("############");
+		int m = obj.testSum(20, 40);
+		System.out.println(m);
 	}
 	
 	public int testSum(int a, int b) {
