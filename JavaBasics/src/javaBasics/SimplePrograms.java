@@ -73,7 +73,7 @@ public class SimplePrograms {
 		String strEx = "My name is Manish Kumar Singh";
 		System.out.println(strEx.charAt(1));
 		
-		int length = strEx.length(); System.out.println(length);
+		int length = strEx.length(); System.out.println("Length of the string is: "+length);
 		String subStringStartEndIndex = strEx.substring(0, 6); System.out.println(subStringStartEndIndex);
 		int indexString = strEx.indexOf("Manish"); System.out.println(indexString);
 		String subStringStartIndex = strEx.substring(9); System.out.println(subStringStartIndex);

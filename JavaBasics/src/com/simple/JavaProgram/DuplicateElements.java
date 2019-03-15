@@ -42,7 +42,8 @@ public class DuplicateElements {
 			// System.out.println(con + ": " + Collections.frequency(namesArray,con));
 					//print all the elements with number of occurrences
 					if(Collections.frequency(namesArray, con) !=1) {
-						System.out.println("Duplicate item in the list is: ---> " +con);
+						System.out.println("Duplicate item in the list is: ---> " +con
+								+ " and number of occurence: "+ Collections.frequency(namesArray, con));
 					}
 				}
 
